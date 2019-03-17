@@ -22,6 +22,12 @@ let vWidgetColorLed = new blynk.WidgetLED(6);
 // let table = null;
 
 
+// TODO: Add also the on disconnect event listener.
+// TODO: Move the Table and pin initializations out of the on connect event
+//  handler, because if the connection to the Blynk server is broken and
+//  reestablished, the on connect event handler will be called again.
+// TODO: Add SIGTERM and SIGINT handlers for handling the workers. (And add also
+//  other error handling to the workers in case of crash.)
 blynk.on('connect', () => {
     let table = new Table(blynk, vWidgetTable, vPinHue, vPinSaturation, vPinValue);
 
