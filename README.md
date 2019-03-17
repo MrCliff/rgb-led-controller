@@ -5,7 +5,7 @@ A RGB led strip controller program for Raspberry Pi. Uses Blynk app as controlle
 
 ## Installation
 
-First you need Node.js and npm package manager, which comes with Node.js.
+First you need Node.js and npm package manager.
 
 To install the program just run `npm install`, while in the root directory of this program. You also need to copy/rename the _config_example.js_ to _config.js_ and insert your own Blynk authorization key in the file.
 
