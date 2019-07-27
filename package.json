@@ -11,7 +11,7 @@
   "dependencies": {
     "blynk-library": "^0.5.4",
     "raspi": "^6.0.0",
-    "raspi-soft-pwm": "^5.1.0",
+    "raspi-soft-pwm": "^6.0.1",
     "tiny-worker": "^2.1.2"
   }
 }
